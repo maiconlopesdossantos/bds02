@@ -1,7 +1,7 @@
 package com.devsuperior.bds02.controllers;
 
 import com.devsuperior.bds02.dto.CityDTO;
-import com.devsuperior.bds02.services.CityService;
+import com.devsuperior.bds02.services.exceptions.CityService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

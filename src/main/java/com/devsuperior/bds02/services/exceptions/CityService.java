@@ -1,10 +1,8 @@
-package com.devsuperior.bds02.services;
+package com.devsuperior.bds02.services.exceptions;
 
 import com.devsuperior.bds02.dto.CityDTO;
 import com.devsuperior.bds02.entities.City;
 import com.devsuperior.bds02.repositories.CityRepository;
-import com.devsuperior.bds02.services.exceptions.DatabaseException;
-import com.devsuperior.bds02.services.exceptions.ResourceNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.dao.EmptyResultDataAccessException;
