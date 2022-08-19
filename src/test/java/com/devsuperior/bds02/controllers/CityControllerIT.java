@@ -29,6 +29,8 @@ public class CityControllerIT {
 	
 	@Autowired
 	private ObjectMapper objectMapper;
+
+
 	
 	@Test
 	public void findAllShouldReturnAllResourcesSortedByName() throws Exception {
